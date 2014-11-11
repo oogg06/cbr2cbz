@@ -19,7 +19,7 @@ To convert a single CBR file use this (the script can't handle filenames with sp
 
 ``./cbr2cbz.py <cbr_filename_without_spaces>``
 
-To convert an entire directory with CBR files in int use:
+To convert an entire directory with CBR files in it use:
 
 ``cbrfolder2cbz.py <directory>``
 
