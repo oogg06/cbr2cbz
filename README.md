@@ -8,7 +8,8 @@ Requirements
 ------------
 
 * A GNU/Linux distro (sorry, no Windows support)
-* The non-free package ``unrar-nonfree`` (check [unrar-nonfree](https://packages.debian.org/source/sid/unrar-nonfree/ "Debian non-free") 
+* The non-free package ``unrar-nonfree`` (check [unrar-nonfree](https://packages.debian.org/source/sid/unrar-nonfree/ "Debian non-free") )
+* The free package ``zip``. Install it with ``https://packages.debian.org/source/sid/unrar-nonfree``.
 
 Usage
 -----
@@ -23,8 +24,6 @@ To convert an entire directory with CBR files in int use:
 
 The script will put CBZ files in the same directory
 
-
-
 Introduction
 -------------
-CBR files use RAR format, a non-free format. If you use a GPL comics reader i
+CBR files use RAR format, a non-free format. If you use a GPL comics reader in your tablet it's likely it will have problems when reading CBR files. Convert them to CBZ with this script.
