@@ -8,7 +8,7 @@ Requirements
 ------------
 
 * A GNU/Linux distro (sorry, no Windows support)
-* The non-free package ``unrar-nonfree`` (check [unrar-nonfree](https://packages.debian.org/source/sid/unrar-nonfree/ "Debian non-free") )
+* The non-free package ``unrar-nonfree`` (check [unrar-nonfree](https://packages.debian.org/source/sid/unrar-nonfree/ "Debian non-free"))
 * The free package ``zip``. Install it with ``https://packages.debian.org/source/sid/unrar-nonfree``.
 
 Usage
