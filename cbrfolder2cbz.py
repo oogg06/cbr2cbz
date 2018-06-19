@@ -19,7 +19,7 @@ def print_usage():
 
 def convert(filename):
     CONVERT="./cbr2cbz.py"
-    command=" ".join([CONVERT, filename])
+    command=" ".join([CONVERT, "\""+filename+"\""])
     execute(command)
 
 if len(sys.argv)!=2:

@@ -15,9 +15,9 @@ Requirements
 Usage
 -----
 
-To convert a single CBR file use this (the script can't handle filenames with spaces):
+To convert a single CBR file use this:
 
-``./cbr2cbz.py <cbr_filename_without_spaces>``
+``./cbr2cbz.py <cbr_filename>``
 
 To convert an entire directory with CBR files in it use:
 
