@@ -54,7 +54,7 @@ uncompress(sys.argv[1], temp_dir)
 
 #Compress images and put them into a CBZ/ZIP
 compress(temp_dir, cbz_filename)
-
+execute("".join(["rm -Rf ", temp_dir]))
 
 
 
