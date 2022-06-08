@@ -28,7 +28,7 @@ def uncompress(filename, directory):
 def compress (directory, zip_filename):
     ZIP="zip"
     directory=directory+"/*"
-    command=" ".join([ZIP, zip_filename, directory ])
+    command=" ".join([ZIP, "\""+zip_filename+"\"", directory ])
     execute (command)
 
 def get_filename_without_extension(filename):
@@ -54,8 +54,7 @@ uncompress(sys.argv[1], temp_dir)
 
 #Compress images and put them into a CBZ/ZIP
 compress(temp_dir, cbz_filename)
-
-
+execute("".join(["rm -Rf ", temp_dir]))
 
 
 
