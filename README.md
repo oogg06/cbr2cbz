@@ -23,7 +23,7 @@ To convert an entire directory with CBR files in it use:
 
 ``cbrfolder2cbz.py <directory>``
 
-You can also convert many directories with:
+You can also convert many directories (thank you @nmorey) with:
 
 ``cbrfolder2cbz.py <directory1> <directory2> .. <directoryn>``
 
