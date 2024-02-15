@@ -23,6 +23,10 @@ To convert an entire directory with CBR files in it use:
 
 ``cbrfolder2cbz.py <directory>``
 
+You can also convert many directories with:
+
+``cbrfolder2cbz.py <directory1> <directory2> .. <directoryn>``
+
 The script will put CBZ files in the same directory. In case you need to rename many files check [pyrenamer] (https://packages.debian.org/wheezy/pyrenamer)
 
 Introduction
